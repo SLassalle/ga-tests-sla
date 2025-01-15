@@ -29,6 +29,7 @@ jobs:
           - augustine
         exclude:
             - modele: docker
+            - modele: squirrel
     steps:
       - name: output pipeline
         id: cowsay_output_id # You want id
